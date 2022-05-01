@@ -10,10 +10,4 @@ This gives the user the impression that the website is faster because they alrea
 
 It is important to note that skeleton UI only loads if the network speed is slow or in a real world scenario the incoming data is way to much and needs time.
 
-## Lets reproduce the slow network speed scenario.
-
-1. Open DevTools (Ctrl+Shift+i).
-2. Navigate to the "Network" tab.
-3. Select the type of connection you want by clicking on 'No throttling' dropdown, select slow 3G.
-4. Reload the page to see assets downloading at the specified connection speed.
-5. Remember not to close the DevTools.
+In this example for simplicity sake I've added a timeout which simulates a real world scenario, and gives a feeling that the data is loading.
